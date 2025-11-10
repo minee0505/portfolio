@@ -22,7 +22,7 @@ export default function Home() {
                     </p>
                     <div className="flex flex-wrap gap-4 mt-6">
                         <a
-                            href="https://github.com/yourusername"
+                            href="https://github.com/minee0505"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors text-sm sm:text-base"

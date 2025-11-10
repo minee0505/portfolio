@@ -21,6 +21,36 @@ code, pre {
     font-family: var(--font-geist-mono), 'Courier New', monospace;
 }
 
+/* 커스텀 스크롤바 (Chrome, Safari, Edge) - 라이트 모드 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* 다크모드 스크롤바 */
+.dark ::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+}
 
 /* line-clamp 유틸리티 */
 .line-clamp-2 {
