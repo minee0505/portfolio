@@ -73,6 +73,9 @@ code, pre {
     --color-primary-hover: #1d4ed8;
 }
 
+/* 다크모드 설정 */
+@variant dark (&:where(.dark, .dark *));
+
 /* 부드러운 전환 효과 */
 * {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
