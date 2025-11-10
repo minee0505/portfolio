@@ -2,7 +2,7 @@ export default function Home() {
     return (
         <main className="min-h-screen p-8 bg-white">
             <div className="max-w-4xl mx-auto">
-                <h1 className="text-4xl font-bold mb-4">경민's 포트폴리오</h1>
+                <h1 className="text-4xl font-bold mb-4">경민's 개발 블로그</h1>
                 <p className="text-gray-600 mb-8">
                     개발자 포트폴리오 블로그입니다.
                 </p>
